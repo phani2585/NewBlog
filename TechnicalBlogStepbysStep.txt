@@ -1,0 +1,13 @@
+1.Create a  new Maven project.Provide groupid n artifactid in pom.xml.
+2.Add spring-boot-starter-parent artifact id under groupid org.springframework.boot under parent tags and spring-boot-starter-web,spring-boot-starter-thymeleaf
+artifactid under dependencies.
+3. Write PSVM method in main class under the project structure java->Blog->MyFirstBlog.class
+4. Start writing the HomeController class in Controller folder. In it write a method getallposts() .To complete this method we
+need to define model.
+5. Write the model class in model folder with required fields.
+6.call this model class object in HmeController class and assign values or instantiate the model class attributes.
+ The MVC model class (like the Post model) is used to represent data in the application, whereas the model class provided by Spring is used to pass data from the controller to the view. 
+
+7.Thymeleaf=> folder structure => resources->templates->index.html 
+8.Add the first milestone to github (https://github.com/phani2585/BlogApplication.git)
+
